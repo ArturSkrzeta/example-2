@@ -1,6 +1,11 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
+/*
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2586,8 +2591,9 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #8e9379;
+		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
+		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2771,7 +2777,6 @@ input, select, textarea {
 		box-shadow: 0 0.1em 0.15em 0 rgba(0, 0, 0, 0.15);
 		overflow: hidden;
 		padding-bottom: 3em;
-		height: 80%;
 	}
 
 		.poptrox-popup .loader {
@@ -2812,13 +2817,13 @@ input, select, textarea {
 			bottom: 0;
 			cursor: default;
 			font-size: 0.9em;
-			height: auto;
+			height: 3em;
 			left: 0;
-			line-height: 1.5em;
+			line-height: 2.8em;
 			position: absolute;
 			text-align: center;
+			width: 100%;
 			z-index: 1;
-			padding: 20px;
 		}
 
 		.poptrox-popup .nav-next,
