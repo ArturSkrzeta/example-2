@@ -1,3 +1,9 @@
+/*
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
 (function($) {
 
 	var $window = $(window),
@@ -19,7 +25,7 @@
 		breakpoints({
 			xlarge:  [ '1281px',  '1800px' ],
 			large:   [ '981px',   '1280px' ],
-			large:  [ '737px',   '980px'  ],
+			medium:  [ '737px',   '980px'  ],
 			small:   [ '481px',   '736px'  ],
 			xsmall:  [ null,      '480px'  ],
 		});
@@ -45,11 +51,11 @@
 		}
 
 	// Footer.
-		breakpoints.on('<=large', function() {
+		breakpoints.on('<=medium', function() {
 			$footer.insertAfter($main);
 		});
 
-		breakpoints.on('>large', function() {
+		breakpoints.on('>medium', function() {
 			$footer.appendTo($header);
 		});
 
@@ -64,14 +70,14 @@
 
 			if (settings.parallax) {
 
-				breakpoints.on('<=large', function() {
+				breakpoints.on('<=medium', function() {
 
 					$window.off('scroll.strata_parallax');
 					$header.css('background-position', '');
 
 				});
 
-				breakpoints.on('>large', function() {
+				breakpoints.on('>medium', function() {
 
 					$header.css('background-position', 'left 0px');
 
@@ -103,7 +109,7 @@
 					usePopupDefaultStyling: false,
 					usePopupEasyClose: false,
 					usePopupNav: true,
-					windowMargin: (breakpoints.active('<=large') ? 0 : 50)
+					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
 				});
 
 			});
