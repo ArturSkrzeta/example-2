@@ -2818,11 +2818,12 @@ input, select, textarea {
 			font-size: 0.9em;
 			height: auto;
 			left: 0;
-			line-height: 2.8em;
+			line-height: 1.5em;
 			position: absolute;
 			text-align: center;
 			width: 100%;
 			z-index: 1;
+			padding: 20px;
 		}
 
 		.poptrox-popup .nav-next,
