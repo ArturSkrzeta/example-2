@@ -2766,10 +2766,10 @@ input, select, textarea {
 	}
 
 	.poptrox-popup {
-		-moz-box-sizing: content-box;
+/* 		-moz-box-sizing: content-box;
 		-webkit-box-sizing: content-box;
 		-ms-box-sizing: content-box;
-		box-sizing: content-box;
+		box-sizing: content-box; */
 		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 		background: #fff;
 		border-radius: 0.35em;
