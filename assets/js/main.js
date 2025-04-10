@@ -103,7 +103,7 @@
 					usePopupDefaultStyling: false,
 					usePopupEasyClose: false,
 					usePopupNav: true,
-					windowMargin: (breakpoints.active('<=large') ? 0 : 100)
+					windowMargin: (breakpoints.active('<=large') ? 0 : 50)
 				});
 
 			});
